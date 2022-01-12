@@ -187,6 +187,14 @@ hr{
 
 /*----------- Mobile devices --------*/
 @media only screen and (max-width:688px) { 
+    nav{
+        display: flex;
+    }
+    .logo{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
     main{
         margin-left: 15px;
     }
