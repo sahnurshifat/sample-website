@@ -142,7 +142,7 @@ hr{
 /*----------- Mobile devices --------*/
 @media only screen and (max-width:688px) { 
     main{
-        margin: 10px;
+        margin-left: 15px;
     }
     .container{
         width: 100%;
@@ -153,8 +153,25 @@ hr{
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
     }
-    .player,.blogs, .courses{
+    .player, .blog{
         flex-direction: column;
     }
  
+}
+
+/*------------- tablet devices ---------------*/
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+    .container{
+        width: 90%;
+    }
+    .players{
+       grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+    }
 }
