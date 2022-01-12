@@ -9,6 +9,7 @@ body{
     padding: 0;
 }
 /*---------------- base style ends -------------*/
+
 /* ----navbar starts---- */
 header {
     background-color: #562eff;
@@ -28,6 +29,9 @@ nav {
     margin-right: 30px;
     color: #ffffff;
 }
+.menu-bar a:hover{
+    color: #ffff99;
+}
 .logo img {
   width: 40px;
   height: 51px;
@@ -35,6 +39,9 @@ nav {
 .logo span {
     font-size: 30px;
     color: white;
+}
+.logo span:hover{
+    color: #ffff33;
 }
 .logo {
     margin-right: -114px;
@@ -141,6 +148,9 @@ hr{
 .course .course-banner img{
     width: 224px;
     height: 104px;
+}
+.course-author{
+    color: #ff751a;
 }
 .course-info{
     display: flex;
