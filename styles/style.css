@@ -1,12 +1,48 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Poppins:wght@400;500&display=swap');
-/* Ranked Player Style */
 
 /* base style */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
+/*---------------- base style ends -------------*/
+/* ----navbar starts---- */
+header {
+    background-color: #562eff;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu-bar a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #ffffff;
+}
+.logo img {
+  width: 40px;
+  height: 51px;
+}
+.logo span {
+    font-size: 30px;
+    color: white;
+}
+.logo {
+    margin-right: -114px;
+}
+
+/* ----navbar ends---- */
+
+/* Ranked Player Style */
 main{
     display: flex;
     flex-direction: column;
