@@ -138,3 +138,23 @@ hr{
 /*-----------------
      Media Queries 
 -------------------*/
+
+/*----------- Mobile devices --------*/
+@media only screen and (max-width:688px) { 
+    main{
+        margin: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+    .courses{
+        grid-row-gap: 50px;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player,.blogs, .courses{
+        flex-direction: column;
+    }
+ 
+}
