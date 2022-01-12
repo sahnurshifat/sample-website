@@ -47,7 +47,25 @@ hr{
 /* -------------------
    top blogs style 
 -------------------- */
+.blog{
+    display: flex;
+}
 .thumbnail img{
     width: 177px;
     height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 }
